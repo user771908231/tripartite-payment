@@ -1,0 +1,22 @@
+{
+    "name": "yoyo/tripartite-payment",
+    "description": "三方支付 make a package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Forty Three",
+            "email": "yoyo@admin.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flower\\Rose\\": "src/Flower/Rose",
+            "Flower\\Lily\\": "src/Flower/Lily"
+        }
+    }
+}
